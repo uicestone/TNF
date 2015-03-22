@@ -1,0 +1,197 @@
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+
+/*
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+*/
+
+
+:focus { outline:0; }
+a:active { outline:none; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+a img{outline:none; border:none;}
+a{outline:none; border:none;}
+object{outline::none;}
+p{ margin:0; padding:0;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+/*
+====================== Page Style ======================
+*/
+
+html, body {height: 100%;}  /*高さ100%に指定*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	text-align: center;
+	font-size: 10px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	position: relative;
+	min-width: 980px;  /*中央配置するボックスの横幅*/
+	min-height: 685px;  /*中央配置するボックス縦幅*/
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+
+
+#wrapper{
+	height:685px;
+	position:absolute;
+	top:50%;
+	left:0px;
+	margin:-380px 0 0 0;
+	width:100%;
+	padding:1px 0 0 0;
+}
+.logo{
+	width: 900px;
+	background-image: url(../images/logo.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 75px;
+	margin: 0 auto;
+
+}
+#container {
+	width:98px;
+	height:685px;
+	padding:0;
+	margin:-0 0 0 -490px;
+	z-index:0;
+	position:absolute;
+	left:50%;
+}
+
+#example {
+	width:980px;
+	height:648px;
+	position:relative;
+}
+
+
+
+
+/*
+====================== Slideshow style ======================
+*/
+
+
+#slides {
+	position:relative;
+	top:0px;
+	left:0px;
+	z-index:100;
+	text-align:left;
+}
+
+.slides_container {
+	width: 900px;
+	height: 648px;
+	margin: 0 0 0 40px;
+	overflow: hidden;
+	position: relative;
+	display: none;
+}
+
+
+#slides .slide {
+	padding:0;
+	width:900px;
+	height:648px;
+	background:#FFF;
+	display:block;
+}
+
+
+
+
+/*
+====================== Next/prev buttons ======================
+*/
+#slides .next,#slides .prev {
+	position:absolute;
+	top:300px;
+	left:0px;
+	width:30px;
+	height:30px;
+	display:block;
+	z-index:101;
+	opacity:0.5;
+}
+
+#slides .next {
+	left:950px;
+}
+
+#slides .next:hover,
+#slides .prev:hover{
+	opacity:1.0;
+}
+
+
+
+
+
+
+
+/*
+====================== Pagination ======================
+*/
+
+.pagination-wrapper {
+	overflow-x: auto;
+	width: 900px;
+	margin: 0 35px;
+}
+
+.pagination {
+	width:1406px;
+	height:37px;
+	padding:8px 0 0 0;
+	margin:0 auto;
+	background:url(../images/them_bk.png) 0px 8px no-repeat;
+}
+
+
+
+.pagination li{
+	float:left;
+	margin:0 0 0 4px;
+	list-style:none;
+	padding:0;
+	width:52px;
+}
+
+.pagination li a {
+	display:block;
+	width:52px;
+	height:37px;
+	margin:0;
+	padding:0;
+	background:url(../images/nomal.png) 0 0 no-repeat;
+	float:left;
+	text-decoration:none;
+	text-indent:-9999px;
+	line-height:0;
+	text-transform: uppercase;
+}
+
+.pagination li a:hover{
+	background:url(../images/over.png) 0 0 no-repeat;
+}
+
+.pagination li.current a {
+	background:url(../images/select.png) 0 0 no-repeat;
+}
