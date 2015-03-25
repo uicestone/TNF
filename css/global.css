@@ -160,11 +160,15 @@ body {
 	width:2075px;
 	height:45px;
 	padding:8px 0 0 0;
-	margin:0 auto;
+	/*margin:0 auto;*/
+	margin-top: 0px;
+	margin-bottom: 5px;
 	background:url(../images/slide-01.png) 12px 8px no-repeat;
 }
 
-
+.mCSB_horizontal.mCSB_inside>.mCSB_container {
+	margin-bottom: 10px;
+}
 
 .pagination li{
 	float:left;
