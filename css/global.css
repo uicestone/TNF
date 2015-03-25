@@ -51,7 +51,7 @@ body {
 	position:absolute;
 	top:50%;
 	left:0px;
-	margin:-380px 0 0 0;
+	margin:-390px 0 0 0;
 	width:100%;
 	padding:1px 0 0 0;
 }
@@ -61,7 +61,7 @@ body {
 	background-position: right center;
 	background-repeat: no-repeat;
 	height: 75px;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 
 }
 #container {
@@ -157,27 +157,27 @@ body {
 }
 
 .pagination {
-	width:1406px;
-	height:37px;
+	width:2075px;
+	height:45px;
 	padding:8px 0 0 0;
 	margin:0 auto;
-	background:url(../images/them_bk.png) 0px 8px no-repeat;
+	background:url(../images/slide-01.png) 12px 8px no-repeat;
 }
 
 
 
 .pagination li{
 	float:left;
-	margin:0 0 0 4px;
+	margin:0 0 0 13px;
 	list-style:none;
 	padding:0;
-	width:52px;
+	width:70px;
 }
 
 .pagination li a {
 	display:block;
-	width:52px;
-	height:37px;
+	width:70px;
+	height:45px;
 	margin:0;
 	padding:0;
 	background:url(../images/nomal.png) 0 0 no-repeat;
