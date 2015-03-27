@@ -163,7 +163,7 @@ body {
 	/*margin:0 auto;*/
 	margin-top: 0px;
 	margin-bottom: 5px;
-	background:url(../images/slide-01.png) 12px 8px no-repeat;
+	background:url(../images/slide-01.png?v2) 12px 8px no-repeat;
 }
 
 .mCSB_horizontal.mCSB_inside>.mCSB_container {
