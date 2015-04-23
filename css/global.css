@@ -56,22 +56,33 @@ body {
 	padding:1px 0 0 0;
 }
 .logo{
-	width: 900px;
-	background-image: url(../images/logo.png);
-	background-position: right center;
-	background-repeat: no-repeat;
-	height: 75px;
-	margin: 0 auto 10px;
+	width: 980px;
+/* background-image: url(../images/logo.png); */
+/*background-position: right center;*/
+/*background-repeat: no-repeat;*/
+height: 75px;
+margin: 0 0 0 -490px;
+position: absolute;
+top: 65px;
+display: block;
+left: 60%;
+/* padding-right: 40px; */
+text-align: right;
 
 }
 #container {
 	width:98px;
 	height:685px;
 	padding:0;
-	margin:-0 0 0 -490px;
+	margin:140px 0 0 -490px;
 	z-index:0;
 	position:absolute;
-	left:50%;
+	left:60%;
+}
+#video {
+	position: absolute;
+	top: 140px;
+	left: 10%;
 }
 
 #example {
