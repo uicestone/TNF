@@ -39,7 +39,7 @@ body {
 	min-width: 980px;  /*中央配置するボックスの横幅*/
 	min-height: 685px;  /*中央配置するボックス縦幅*/
 	background-image: url(../images/bg.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-position: center center;
 
 }
@@ -47,9 +47,9 @@ body {
 
 
 #wrapper{
-	height:685px;
+	height:1000px;
 	position:absolute;
-	top:50%;
+	top:70%;
 	left:0px;
 	margin:-390px 0 0 0;
 	width:100%;
@@ -78,6 +78,24 @@ body {
 	width:980px;
 	height:648px;
 	position:relative;
+}
+
+.location {
+	text-align: left;
+	color: white; 
+	position: absolute;
+	top: 810px;
+	left: 30px;
+	height: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: yahei;
+	background-image: url(../images/location-01.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	padding-top: 8px;
+
 }
 
 
