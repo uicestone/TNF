@@ -15,7 +15,11 @@
 	<link rel="stylesheet" href="css/mediaelementplayer.min.css" />
 <script>
 // using jQuery
-$('video,audio').mediaelementplayer(/* Options */);
+$('video,audio').mediaelementplayer(
+	alwaysShowControls: false,
+	enableKeyboard: true,
+	enableAutosize: true,
+	/* Options */);
 </script>
 
 
@@ -29,7 +33,7 @@ $('video,audio').mediaelementplayer(/* Options */);
 		<div class="logo" style="width:1280px;"></div>
 		<div class="location"><a href="http://j.map.baidu.com/e1451" target="_blank" style="color:white; text-decoration:none;">上海市黄浦区淮海中路300号K11购物艺术中心B1</a></div>
 		<div class="middle">
-			<video width="1280"  src="images/UE Instore Video Final.mp4" type="video/mp4" id="player1" poster="../media/echo-hereweare.jpg" controls="controls" preload="none"></video>
+			<video width="1280"  src="images/UE Instore Video Final.mp4" type="video/mp4" poster="images/videocover.png" controls="controls"  preload="auto"></video>
 			
 		</div>
 
