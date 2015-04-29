@@ -47,21 +47,19 @@ body {
 
 
 #wrapper{
-	height:685px;
+	height:auto;
 	position:absolute;
-	top:43%;
+	top:75px;
 	left:0px;
-	margin:-390px 0 0 0;
+
 	width:100%;
-	padding:1px 0 0 0;
+
 }
 .logo{
 	width: 900px;
-	background-image: url(../images/logo.png);
-	background-position: right center;
-	background-repeat: no-repeat;
+	text-align: right;
 	height: 160px;
-	margin: 0 auto 10px;
+	margin: 0 auto 30px;
 
 }
 #container {
@@ -84,7 +82,7 @@ body {
 	text-align: left;
 	color: white; 
 	position: absolute;
-	top: 900px;
+	top: 930px;
 	left: 30px;
 	height: 20px;
 	font-size: 15px;
